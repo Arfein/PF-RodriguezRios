@@ -35,16 +35,22 @@
     }
 }
 
+.animlogo{
+    background-color: dodgerblue;
+    
+}
 
-
-.card {
+img{
+    max-width: 100%;
+}
+.tag {
     text-align: center;
     background-color: dodgerblue;
     padding: 2rem;
     height: auto;
   }
   
-  .cards {
+  .tags {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -52,8 +58,9 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   }
 
+
 .contenedor{background-color: rgb(70, 69, 70); border: 1px solid rgb(0, 0, 0);border-radius:20px;padding:5px; p{text-align: justify ;}}
-.ppresponsive{position: relative;  padding: 50px; background-color: rgb(70, 69, 70); margin: 20px; border: 1px solid black; border-radius: 20px; font-size: x-large; color: white; text-align: center;}
+.ppresponsive{justify-content: center;  padding: 50px; background-color: rgb(70, 69, 70); margin: 20px; border: 1px solid black; border-radius: 20px; font-size: x-large; color: white; text-align: center;}
 .imgform{padding: 10px; border: 1px solid black; border-radius: 20px;}
 h2{color: rgb(0, 203, 253); font-style: "Lucida Console", "Courier New", monospace;}
 

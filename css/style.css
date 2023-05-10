@@ -184,14 +184,22 @@ H1 {
   text-decoration: none;
 }
 
-.card {
+.animlogo {
+  background-color: dodgerblue;
+}
+
+img {
+  max-width: 100%;
+}
+
+.tag {
   text-align: center;
   background-color: dodgerblue;
   padding: 2rem;
   height: auto;
 }
 
-.cards {
+.tags {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
@@ -210,7 +218,7 @@ H1 {
 }
 
 .ppresponsive {
-  position: relative;
+  justify-content: center;
   padding: 50px;
   background-color: rgb(70, 69, 70);
   margin: 20px;
