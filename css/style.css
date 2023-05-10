@@ -1,0 +1,248 @@
+/* Estilo del header en general para todas las paginas */
+.headergeneral {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 0.5px groove;
+  border-radius: 20px;
+}
+
+/* Estilo del body general */
+.titulognral {
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 5px;
+}
+.titulognral p p {
+  text-align: justify;
+}
+
+/* Estilo del titulo en index */
+.titulo1home {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.titulo2home {
+  padding: 20px;
+}
+
+/* Estilo del footer general */
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 1px groove;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/*Modificaciones generales */
+.formulario {
+  padding: 50px;
+  background-color: rgb(70, 69, 70);
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: x-large;
+  color: white;
+  text-align: justify;
+}
+
+.centro {
+  text-align: center;
+}
+
+input:invalid {
+  background-color: #ffdddd;
+}
+
+BODY {
+  background-image: url(../img/fondo.jpg);
+  min-height: 100%;
+}
+
+.p1 {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.nombres {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(0, 203, 253);
+}
+
+.ind {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+}
+
+.cen {
+  font-size: x-large;
+  color: white;
+}
+
+p {
+  font-size: x-large;
+  font-style: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+
+H1 {
+  font-size: xx-large;
+  color: rgb(0, 203, 253);
+}
+
+.cont {
+  padding: 10px;
+  background-color: rgb(70, 69, 70);
+  margin: center;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+}
+
+/*Animaciones e interacciones */
+.trans {
+  transition: all 1s;
+}
+.trans:hover {
+  transform: scale(2, 2);
+  cursor: pointer;
+}
+
+.trans2 {
+  transition: all 2s;
+}
+.trans2:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #00ccff;
+}
+
+.mb {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/*Estilo del CSS nativo*/
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+.hresponsive {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 0.5px groove;
+  border-radius: 20px;
+  position: relative;
+}
+.hresponsive ul {
+  display: block;
+  border: 0.5px solid, rgb(37, 36, 36);
+  padding: 15px;
+  background-color: rgb(37, 36, 36);
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+}
+.hresponsive ul li {
+  padding: 5px;
+  display: inline;
+}
+.hresponsive ul li a {
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.card {
+  text-align: center;
+  background-color: dodgerblue;
+  padding: 2rem;
+  height: auto;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
+.contenedor {
+  background-color: rgb(70, 69, 70);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px;
+}
+.contenedor p {
+  text-align: justify;
+}
+
+.ppresponsive {
+  position: relative;
+  padding: 50px;
+  background-color: rgb(70, 69, 70);
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+
+.imgform {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+h2 {
+  color: rgb(0, 203, 253);
+  font-style: "Lucida Console", "Courier New", monospace;
+}
+
+.fresponsvie {
+  padding: 50px;
+  background-color: rgb(70, 69, 70);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: x-large;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
